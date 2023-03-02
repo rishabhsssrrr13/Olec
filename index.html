@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+
+<body>
+
+    <img class="bg" src="/images/istockphoto-1138138146-612x612.jpg" alt="">
+    <header>
+        <a href="https://www.google.com/"><img class="logo" src="/images/45.png" alt=""></a>
+
+        <!-- menu buttons  -->
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+                <!-- sub-menu buttons -->
+                <li><a href="#">Courses</a>
+                    <div class="sub-menu">
+                        <ul>
+                            <li><a href="#">BBA</a></li>
+                            <li><a href="#">B.Tech</a></li>
+                            <li><a href="#">BCA</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+
+                <li><a href="#">About us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <!-- registration form validaton -->
+    
+        <div class="container">
+            <h3>Enter Your Details</h3>
+
+            <form action="fod.php" method="post">
+            <input type="text" placeholder="Enter your full name" name="name" id="name" required>
+            <input type="text" placeholder="Enter your Phone no." name="phone" id="phone" required>
+            <input type="text" placeholder="Enter Email" name="email" id="email" required>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+            
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+
+            <button type="submit" class="registerbtn">Register</button>
+            <div id="container-signin">
+                <p>Already have an account? <a href="#">Sign in</a>.</p>
+            
+        </div>
+
+    </form>
+</div>
+
+
+
+</body>
+
+</html>
